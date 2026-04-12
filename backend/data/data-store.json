@@ -1,0 +1,33 @@
+{
+  "slots": [
+    {
+      "id": "57559446-4960-4ab0-80f4-f39c3d299206",
+      "time": "2026-04-29T23:00:00.000Z",
+      "doctorId": "7c9e6679-7425-40de-944b-e07fc1f90ae7",
+      "isReserved": false,
+      "cost": 50
+    },
+    {
+      "id": "e4db792f-726c-4eb4-a605-7f7e4630017f",
+      "time": "2026-04-30T00:00:00.000Z",
+      "doctorId": "7c9e6679-7425-40de-944b-e07fc1f90ae7",
+      "isReserved": false,
+      "cost": 100
+    },
+    {
+      "id": "59eb687b-5e3c-4e2d-b3ab-62d0c13ccd50",
+      "time": "2026-04-30T03:00:00.000Z",
+      "doctorId": "7c9e6679-7425-40de-944b-e07fc1f90ae7",
+      "isReserved": false,
+      "cost": 200
+    },
+    {
+      "id": "e7d5876c-81a3-4276-8472-e5a97c698ae9",
+      "time": "2026-05-01T03:00:00.000Z",
+      "doctorId": "7c9e6679-7425-40de-944b-e07fc1f90ae7",
+      "isReserved": false,
+      "cost": 200
+    }
+  ],
+  "appointments": []
+}
