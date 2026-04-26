@@ -26,6 +26,37 @@ git clone https://github.com/yourusername/modular-monolith-assessments.git
 
 # Navigate to the project
 cd modular-monolith-assessments
+
+# Install backend dependencies
+cd backend
+npm install
+
+# Run in development mode
+npm run start:dev
+```
+
+The API runs on `http://localhost:3000` by default with:
+
+- Global prefix: `/api`
+- URI versioning: `/v1`
+
+Example health check:
+
+```bash
+curl http://localhost:3000/api/v1/health
+```
+
+Useful backend commands:
+
+```bash
+# Run tests
+npm test
+
+# Run linter
+npm run lint
+
+# Build for production
+npm run build
 ```
 
 ## Course Reference
