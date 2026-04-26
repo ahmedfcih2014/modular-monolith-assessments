@@ -1,4 +1,4 @@
-import { AppointmentEntity } from 'src/modules/appointment-booking/entities/appointment.entity';
+import { AppointmentEntity } from 'src/modules/appointment-booking/domain/entities/appointment.entity';
 
 export enum AppointmentStatus {
   COMPLETED = 'completed',
