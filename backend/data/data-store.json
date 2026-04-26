@@ -4,7 +4,7 @@
       "id": "57559446-4960-4ab0-80f4-f39c3d299206",
       "time": "2026-04-29T23:00:00.000Z",
       "doctorId": "7c9e6679-7425-40de-944b-e07fc1f90ae7",
-      "isReserved": false,
+      "isReserved": true,
       "cost": 50
     },
     {
@@ -27,7 +27,22 @@
       "doctorId": "7c9e6679-7425-40de-944b-e07fc1f90ae7",
       "isReserved": false,
       "cost": 200
+    },
+    {
+      "id": "ed5552ae-cb96-46ec-b9c1-efdbcded4bb0",
+      "time": "2026-04-30T10:00:00+03:00",
+      "doctorId": "3f1f9b8e-7c2a-4c6d-9a5f-2e8b1a4d9c77",
+      "isReserved": false,
+      "cost": 30
     }
   ],
-  "appointments": []
+  "appointments": [
+    {
+      "id": "d417bb6c-f2ad-4f44-a7f2-f69d308fccf2",
+      "slotId": "57559446-4960-4ab0-80f4-f39c3d299206",
+      "patientId": "7c9e6679-7425-40de-944b-e07fc1f90ae7",
+      "patientName": "Tester",
+      "reservedAt": "2026-04-26T18:21:27.825Z"
+    }
+  ]
 }

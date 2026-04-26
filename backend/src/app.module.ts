@@ -5,7 +5,6 @@ import { AppointmentBookingModule } from './modules/appointment-booking/appointm
 import { DoctorAppointmentManagementModule } from './modules/doctor-appointment-management/doctor-appointment-management.module';
 import { AppointmentConfirmationModule } from './modules/appointment-confirmation/appointment-confirmation.module';
 import { EventEmitterModule } from '@nestjs/event-emitter';
-import { DataStore } from './shared/data-store';
 import { SharedModule } from 'src/shared/shared.module';
 
 @Module({
@@ -18,6 +17,5 @@ import { SharedModule } from 'src/shared/shared.module';
     SharedModule,
   ],
   controllers: [HealthController],
-  providers: [DataStore],
 })
 export class AppModule {}

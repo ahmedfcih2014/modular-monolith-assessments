@@ -6,7 +6,7 @@ import {
   OnModuleDestroy,
   OnModuleInit,
 } from '@nestjs/common';
-import { AppointmentEntity } from 'src/modules/appointment-booking/entities/appointment.entity';
+import { AppointmentEntity } from 'src/modules/appointment-booking/domain/entities/appointment.entity';
 import { SlotEntity } from 'src/modules/doctor-availability/entities/slot.entity';
 import { randomUUID } from 'node:crypto';
 import * as fs from 'node:fs/promises';
